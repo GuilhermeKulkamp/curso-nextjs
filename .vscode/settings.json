@@ -1,13 +1,21 @@
 {
-  "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true, // Formata o código automaticamente ao salvar
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // Define o Prettier como formatador padrão
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
+    // Ações de código ao salvar
+    "source.fixAll.eslint": "explicit" // Corrige automaticamente problemas do ESLint ao salvar
   },
-  "eslint.validate": ["javascript", "javascriptreact"],
-  "files.eol": "\n",
-  "files.trimTrailingWhitespace": true,
-  "git.autofetch": true,
-  "javascript.suggest.autoImports": true,
-  "javascript.updateImportsOnFileMove.enabled": "always"
+  "eslint.validate": ["javascript", "javascriptreact"], // Valida arquivos JavaScript e React com ESLint
+  "files.eol": "\n", // Define o fim de linha como LF
+  "files.trimTrailingWhitespace": true, // Remove espaços em branco no final das linhas
+  "git.autofetch": true, // Busca automaticamente atualizações do Git
+  "javascript.suggest.autoImports": true, // Sugere importações automáticas para JavaScript
+  "javascript.updateImportsOnFileMove.enabled": "always", // Atualiza importações ao mover arquivos javascript
+  "typescript.suggest.autoImports": true, // Sugere importações automáticas para TypeScript
+  "typescript.updateImportsOnFileMove.enabled": "always", // Atualiza importações ao mover arquivos TypeScript
+  // Configurações do cSpell
+  "cSpell.language": "pt_BR", // Define o idioma do corretor ortográfico para português do Brasil
+  "cSpell.words": [
+    // palavras específicas do projeto
+  ]
 }
