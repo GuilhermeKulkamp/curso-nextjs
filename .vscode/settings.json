@@ -12,16 +12,30 @@
   "javascript.suggest.autoImports": true, // Sugere importações automáticas para JavaScript
   "javascript.updateImportsOnFileMove.enabled": "always", // Atualiza importações ao mover arquivos javascript
   "typescript.suggest.autoImports": true, // Sugere importações automáticas para TypeScript
-  "typescript.updateImportsOnFileMove.enabled": "always", // Atualiza importações ao mover arquivos TypeScript
+  "typescript.updateImportsOnFileMove.enabled": "always" // Atualiza importações ao mover arquivos TypeScript
+
   // Configurações do cSpell
-  "cSpell.language": "pt_BR", // Define o idioma do corretor ortográfico para português do Brasil
-  "cSpell.words": [
-    // palavras específicas do projeto
-    "Guilherme",
-    "Kulkamp",
-    "Nodejs",
-    "DevOps",
-    "Vercel",
-    "Nextjs"
-  ]
+  //"cSpell.enabled": true,
+  //"cSpell.language": "en,pt,pt_BR",
+  //"cSpell.enabledFileTypes": {
+  //  "javascript": false,
+  //  "javascriptreact": false,
+  //  "typescript": false,
+  //  "typescriptreact": false,
+  //  "markdown": true
+  //},
+  //"cSpell.ignoreRegExpList": [
+  //  "/\\b[a-z]+[A-Z][a-zA-Z]*\\b/g", // camelCase
+  //  "/\\b[A-Z][a-z]+[A-Z][a-zA-Z]*\\b/g", // PascalCase
+  //  "/\\b[a-z]+_[a-z_]+\\b/g" // snake_case
+  //],
+  //"cSpell.words": [
+  //  // palavras específicas do projeto
+  //  "Guilherme",
+  //  "Kulkamp",
+  //  "Nodejs",
+  //  "DevOps",
+  //  "Vercel",
+  //  "Nextjs"
+  // ]
 }

@@ -1,0 +1,31 @@
+{
+  "version": "0.2",
+  "language": "en,pt,pt_BR",
+  "ignorePaths": [
+    "node_modules/**",
+    "dist/**",
+    ".git/**",
+    "package-lock.json",
+    "yarn.lock"
+  ],
+  "ignoreRegExpList": ["camelCase", "PascalCase", "snake_case", "UPPER_CASE"],
+  "patterns": [
+    {
+      "name": "camelCase",
+      "pattern": "/\\b[a-z]+[A-Z][a-zA-Z0-9]*\\b/g"
+    },
+    {
+      "name": "PascalCase",
+      "pattern": "/\\b[A-Z][a-z]+[A-Z][a-zA-Z0-9]*\\b/g"
+    },
+    {
+      "name": "snake_case",
+      "pattern": "/\\b[a-z]+_[a-z_0-9]+\\b/g"
+    },
+    {
+      "name": "UPPER_CASE",
+      "pattern": "/\\b[A-Z_]+\\b/g"
+    }
+  ],
+  "words": ["guilherme", "linkedin", "whatsapp", "github", "instagram"]
+}
