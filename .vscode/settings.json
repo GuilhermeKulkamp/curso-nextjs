@@ -17,5 +17,11 @@
   "cSpell.language": "pt_BR", // Define o idioma do corretor ortográfico para português do Brasil
   "cSpell.words": [
     // palavras específicas do projeto
+    "Guilherme",
+    "Kulkamp",
+    "Nodejs",
+    "DevOps",
+    "Vercel",
+    "Nextjs"
   ]
 }
