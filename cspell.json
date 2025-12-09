@@ -1,4 +1,5 @@
 {
+  "enabled": false, // Set to true to enable spell checking
   "version": "0.2",
   "language": "en,pt,pt_BR",
   "ignorePaths": [
