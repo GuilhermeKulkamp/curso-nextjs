@@ -1,3 +1,3 @@
-module.export = {
+export default {
   testEnvironment: "node",
 };
