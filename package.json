@@ -1,0 +1,11 @@
+{
+  "name": "modulo-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:GuilhermeKulkamp/curso-nextjs.git",
+  "author": "GuilhermeKulkamp <guilhermekulkamp@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
