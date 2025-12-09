@@ -10,6 +10,6 @@ export const validarEmail = (email) => {
 };
 
 // Teste manual
-console.log(validarEmail("guilherme@gmail.com")); // deve retornar true
-console.log(validarEmail("guilherme@empresa")); // deve retornar false
-console.log(validarEmail("com@espacos .com")); // deve retornar false
+// console.log(validarEmail("guilherme@gmail.com")); // deve retornar true
+// console.log(validarEmail("guilherme@empresa")); // deve retornar false
+// console.log(validarEmail("com@espacos .com")); // deve retornar false
